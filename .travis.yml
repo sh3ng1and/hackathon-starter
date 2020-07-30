@@ -1,7 +1,8 @@
+#.travis.yml file
 language: node_js
 node_js:
   - "8"
-  - "9"
+#  - "9"
 services: mongodb  
 cache:  
   directories:
@@ -10,5 +11,5 @@ sudo: false
 install:
   - npm install
 script:
-  - npm run lint
+#  - npm run lint
   - npm test
